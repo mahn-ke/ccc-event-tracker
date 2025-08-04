@@ -1,0 +1,6 @@
+{
+    "name": "ccc-event-tracker",
+    "scripts": {
+        "start": "node main.js"
+    }
+}
