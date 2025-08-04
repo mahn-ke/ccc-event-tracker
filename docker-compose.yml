@@ -4,5 +4,5 @@ services:
   app:
     image: ghcr.io/mahn-ke/ccc-event-tracker:latest
     restart: unless-stopped
-    env:
+    environment:
       - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
